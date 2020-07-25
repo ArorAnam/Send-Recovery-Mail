@@ -37,7 +37,7 @@ async def display_page():
 async def send_mail(email: str = Form(...)):
     port = 465
     smtp_server = "smtp.gmail.com"
-    sender_email = "arora.nam21@gmail.com"
+    sender_email = "enter-sender-mail"
     receiver_email = email
     password = "your-password"
     message = """\
